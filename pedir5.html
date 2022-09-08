@@ -16,73 +16,59 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="body-menu">
-    <header class="tavle-responsive">
-      <!-- inicio navbar -->
-      <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-          <a href=""
-            ><img
-              class="teble-responsive"
-              src="./img/descarga.png"
-              alt="hamburguesa"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="./index.html"
-                  style="color: white"
-                  >Inicio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./menu.html" style="color: white"
-                  >Menu</a
-                >
-              </li>
-            </ul>
+      <header class="table-responsive">
+
+        <!-- inicio navbar -->
+       <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a href="./index.html"><img class="teble-responsive img-navbar" src="./img/icono2-removebg.png" alt="hamburguesa"/></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navBar-inicio" id="navbarNav">
+  
+              <ul class="navbar-nav navBar-letras">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html" style="color: white">Inicio</a>
+                </li>
+  
+                <li class="nav-item">
+                  <a class="nav-link" href="./menu.html" style="color: white">Menu</a>
+                </li>
+              </ul>
+  
+            </div>
           </div>
-        </div>
-      </nav>
-      <!-- fin navar -->
+        </nav>
+     <!-- fin navar -->
+
     </header>
+
     <main>
       <section>
-        <aside class="container-fluid">
-          <div class="contenedorPedido container-fluid">
-            <div class="card bg-black" style="width: 18rem">
-              <img
-                src="./img-2/haburguesa de nugget.png"
-                class="card-img-top"
-                alt="..."/>
-              </div>
-            </div>
+        <article class="container-fluid ">
+
+          <div class="contenedor">
+            <div class="alert alert-danger" role="alert">
+              ¿ESTAS SEGURO QUE DESEAS COMPRAR ESTE PRODUCTO?
+           </div>
           </div>
-        </aside>
-        <div class="contenedorPedido-encargue table-responsive">
-          <div class="card bg-black text-center">
-            <div class="card-body">
-              <h5 class="card-title" style="color: white;">Hamburguesa Nugget</h5>
-              <p class="card-text" style="border: 3px solid rgb(54, 53, 53);">
-                $550
-              </p>
-              <a href="#" class="btn btn-primary">Encargar</a>
-            </div>
+
+          <div class="contenedor">
+            <img src="./img-2/burrito.png" alt="">
           </div>
-        </div>
+
+          <div class="contenedor">
+            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">PEDIR</button>
+          </div>
       </section>
     </main>
     <!-- JavaScript Bundle with Popper -->

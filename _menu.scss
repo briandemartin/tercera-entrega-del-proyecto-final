@@ -30,11 +30,11 @@
 }
 
 .card1 .front img{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+    width: 15rem;
+	height: 13rem;
+	margin: 29px;
 }
+
 
 .card1 .front h3{
 	position: absolute;
@@ -86,3 +86,4 @@
 .card1:hover .back {
 	transform: perspective(600px) rotateY(360deg);
 }
+

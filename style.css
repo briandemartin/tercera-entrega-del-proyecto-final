@@ -18,8 +18,11 @@
 .navBar-letras {
   font-size: 20px; }
 
-img {
+.img-navbar {
   width: 40px; }
+
+img {
+  width: 400px; }
 
 .div1 {
   background-color: black; }
@@ -46,6 +49,9 @@ body {
 
 ul {
   list-style: none; }
+
+.copy {
+  color: white; }
 
 .body-menu {
   background-color: #24262b; }
@@ -74,10 +80,9 @@ ul {
   box-shadow: 0 5px 10px black; }
 
 .card1 .front img {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
+  width: 15rem;
+  height: 13rem;
+  margin: 29px; }
 
 .card1 .front h3 {
   position: absolute;
@@ -122,13 +127,14 @@ ul {
 .card1:hover .back {
   transform: perspective(600px) rotateY(360deg); }
 
-.contenedorPedido {
-  margin: 10px;
-  display: flex;
-  justify-content: center; }
+.img-pedir {
+  width: 40px; }
 
-.contenedorPedido-encargue {
+.contenedor {
   margin: 30px; }
+
+.a-pedir {
+  font-size: 40px; }
 
 footer {
   text-align: center;
