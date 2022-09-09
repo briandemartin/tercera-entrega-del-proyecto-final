@@ -51,3 +51,9 @@ ul{
 .copy {
 	color: white;
 }
+
+$color-footer: white;
+
+.copy{
+	color: $color-footer;
+}

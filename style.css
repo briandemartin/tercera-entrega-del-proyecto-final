@@ -53,6 +53,9 @@ ul {
 .copy {
   color: white; }
 
+.copy {
+  color: white; }
+
 .body-menu {
   background-color: #24262b; }
 
@@ -133,8 +136,8 @@ ul {
 .contenedor {
   margin: 30px; }
 
-.a-pedir {
-  font-size: 40px; }
+#boton {
+  font-size: 20px; }
 
 footer {
   text-align: center;

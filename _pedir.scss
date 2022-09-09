@@ -5,6 +5,10 @@
 	margin: 30px;
 }
 
-.a-pedir {
-	font-size: 40px;
+@mixin parrafo {
+	font-size: 20px;
+}
+
+#boton {
+	@include parrafo;
 }
